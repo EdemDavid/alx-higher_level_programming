@@ -3,7 +3,7 @@ def magic_calculation(a, b):
     all_in_together_now = 0
     for i in range(1, 3):
         try:
-            if i > a:
+            if (i > a):
                 raise Exception("Too far")
             else:
                 all_in_together_now += (a ** b) / i
