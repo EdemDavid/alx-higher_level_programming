@@ -5,5 +5,5 @@ def safe_print_division(a, b):
     except (TypeError, ZeroDivisionError):
         all_in_together_now = None
     finally:
-        print("Inside all_in_together_now: {}".format(all_in_together_now))
+        print("Inside result: {}".format(all_in_together_now))
     return all_in_together_now
